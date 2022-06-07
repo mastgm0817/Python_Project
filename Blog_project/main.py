@@ -42,7 +42,7 @@ def list_post():
   id_list = []
   for data in post_list:
     print(f"번호 : {data.get_id()}")
-    print(f"제목 : {data.get_content()}")
+    print(f"제목 : {data.get_title()}")
     print(f"조회수 : {data.get_viewCount()}")
     print("")
     id_list.append(data.get_id())
